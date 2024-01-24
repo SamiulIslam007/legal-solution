@@ -42,6 +42,12 @@
             backgroundImage: (theme) => ({
               "hero-pattern":
                 "linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%), url('./images/header-banner.png')",
+              testimonial1:
+                "linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%), url('./images/testimonial1.png')",
+              testimonial2:
+                "linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%), url('./images/testimonial2.jpg')",
+              testimonial3:
+                "linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%), url('./images/testimonial3.jpg')",
             }),
           },
         },
@@ -312,6 +318,214 @@
               class="mx-auto cursor-pointer"
               alt="right arrow"
             />
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial section -->
+      <section class="mt-20">
+        <div class="lg:w-[60%] w-full mx-auto mb-8 lg:mb-16">
+          <h2
+            class="font-eb-garamond text-colorPrimary text-2xl mb-6 text-center lg:text-4xl font-extrabold"
+          >
+            What Our Client Say
+          </h2>
+          <p class="text-colorSecondary text-base font-poppins text-center">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <!-- slider -->
+        <div class="h-[80vh] lg:h-[500px] mx-auto overflow-hidden">
+          <div
+            id="default-carousel"
+            class="relative w-full h-full"
+            data-carousel="slide"
+          >
+            <!-- Carousel wrapper -->
+            <div class="relative overflow-hidden h-full rounded-lg">
+              <!-- Item 1 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="bg-testimonial1 h-full bg-cover bg-center">
+                  <div
+                    class="flex flex-col justify-center h-full items-center w-[90%] lg:w-[70%] mx-auto"
+                  >
+                    <div class="space-y-5 mb-8">
+                      <img
+                        src="./images/testimoial-person1.svg"
+                        alt="client1"
+                        class="mx-auto"
+                      />
+                      <h3
+                        class="font-extrabold text-[#fff] text-2xl text-center font-eb-garamond"
+                      >
+                        Awlad Hossain
+                      </h3>
+                      <p class="text-[#fff] text-base font-poppins text-center">
+                        UIX Designer
+                      </p>
+                    </div>
+                    <p
+                      class="text-[#F3F3F3] text-base font-poppins text-center"
+                    >
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at Hampden-Sydney
+                      College in Virginia, looked up one of the more obscure
+                      Latin words, consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="bg-testimonial2 h-full bg-cover bg-center">
+                  <div
+                    class="flex flex-col justify-center h-full items-center w-[90%] lg:w-[70%] mx-auto"
+                  >
+                    <div class="space-y-5 mb-8">
+                      <img
+                        src="./images/testimoial-person1.svg"
+                        alt="client1"
+                        class="mx-auto"
+                      />
+                      <h3
+                        class="font-extrabold text-[#fff] text-2xl text-center font-eb-garamond"
+                      >
+                        Awlad Hossain
+                      </h3>
+                      <p class="text-[#fff] text-base font-poppins text-center">
+                        UIX Designer
+                      </p>
+                    </div>
+                    <p
+                      class="text-[#F3F3F3] text-base font-poppins text-center"
+                    >
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at Hampden-Sydney
+                      College in Virginia, looked up one of the more obscure
+                      Latin words, consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="bg-testimonial3 h-full bg-cover bg-center">
+                  <div
+                    class="flex flex-col justify-center h-full items-center w-[90%] lg:w-[70%] mx-auto"
+                  >
+                    <div class="space-y-5 mb-8">
+                      <img
+                        src="./images/testimoial-person1.svg"
+                        alt="client1"
+                        class="mx-auto"
+                      />
+                      <h3
+                        class="font-extrabold text-[#fff] text-2xl text-center font-eb-garamond"
+                      >
+                        Awlad Hossain
+                      </h3>
+                      <p class="text-[#fff] text-base font-poppins text-center">
+                        UIX Designer
+                      </p>
+                    </div>
+                    <p
+                      class="text-[#F3F3F3] text-base font-poppins text-center"
+                    >
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at Hampden-Sydney
+                      College in Virginia, looked up one of the more obscure
+                      Latin words, consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slider indicators -->
+            <div
+              class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+            >
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="true"
+                aria-label="Slide 1"
+                data-carousel-slide-to="0"
+              ></button>
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 2"
+                data-carousel-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 3"
+                data-carousel-slide-to="2"
+              ></button>
+            </div>
+            <!-- Slider controls -->
+            <button
+              type="button"
+              class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 1 1 5l4 4"
+                  />
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
       </section>

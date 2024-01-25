@@ -12,16 +12,18 @@
       rel="stylesheet"
     />
     <!-- tailwind and daisy ui -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.js"
+      integrity="sha512-BJ/5sR2hFxQTKin/55JQCcMTObShDBAmVjL/3NR/MVcrhyOazJjAgvROem03+HYyGw16SVdSfoWCFGr9syxAKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
       rel="stylesheet"
-      type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
-      rel="stylesheet"
-    />
     <!-- css styles -->
     <style>
       .font-poppins {
@@ -529,8 +531,60 @@
           </div>
         </div>
       </section>
+
+      <!-- FAQ section -->
+      <section class="mt-20">
+        <div class="lg:w-[60%] w-full mx-auto mb-8 lg:mb-16">
+          <h2
+            class="font-eb-garamond text-colorPrimary text-2xl mb-6 text-center lg:text-4xl font-extrabold"
+          >
+            Frequently Asked Any Questions
+          </h2>
+          <p class="text-colorSecondary text-base font-poppins text-center">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div
+          class="flex items-center justify-center flex-col-reverse lg:flex-row gap-6"
+        >
+          <div class="lg:w-1/2 w-full space-y-7">
+            <div class="collapse collapse-plus bg-base-200 p-8">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200 p-8">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200 p-8">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/2 w-full">
+            <img src="./images/FAQ img.svg" class="w-full" alt="FAQ image" />
+          </div>
+        </div>
+      </section>
+
       <footer class="mt-24"></footer>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
   </body>
 </html>
